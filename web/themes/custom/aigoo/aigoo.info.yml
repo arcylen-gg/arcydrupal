@@ -1,0 +1,15 @@
+name: Aigoo
+description: Drupal 8 Starter Theme
+type: theme
+libraries:
+  - aigoo/global-css
+  - aigoo/global-js
+  - aigoo/assets-css
+  - aigoo/assets-js
+  - aigoo/assets/css/bootstrap-responsive.min.css
+  - aigoo/assets/css/bootstrap.css
+core: 8.x
+
+stylesheets-remove:
+  - /core/themes/stable/css/views/views.module.css
+  - /core/themes/stable/css/system/componets/align.module.css
