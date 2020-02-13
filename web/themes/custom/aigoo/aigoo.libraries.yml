@@ -19,3 +19,10 @@ assets-css:
       assets/slick/slick.css: {}
       assets/slick/slick-theme.css: {}
       assets/front/css/global.css: {}
+
+assets-js:
+  js:
+    assets/front/js/global.js: {}
+    assets/front/js/home.js: {}
+    assets/front/js/parallax.min.js: {}
+    assets/front/js/slick.min.js: {}
