@@ -1,0 +1,111 @@
+.content .intro {
+  background-image: url("/assets/front/img/product-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 180px;
+  text-align: right;
+  position: relative;
+  /* Chrome, Safari, Opera */
+  /* Standard syntax */
+  /* Chrome, Safari, Opera */
+  /* Standard syntax */ }
+  .content .intro .holder {
+    padding: 53px 0; }
+  .content .intro .title {
+    font-size: 65.5px;
+    font-family: "Teko", sans-serif;
+    color: #fff;
+    line-height: 60px;
+    letter-spacing: 3px; }
+  .content .intro .bredcramb {
+    font-size: 10.42px;
+    color: #fff; }
+    .content .intro .bredcramb a {
+      color: #fff; }
+      .content .intro .bredcramb a:hover, .content .intro .bredcramb a:focus {
+        color: #fff; }
+  .content .intro:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    -webkit-animation: beforemove 2s infinite;
+    /* Chrome, Safari, Opera */
+    animation: beforemove 2s infinite; }
+  .content .intro:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    -webkit-animation: aftermove 2s infinite;
+    /* Chrome, Safari, Opera */
+    animation: aftermove 2s infinite; }
+@-webkit-keyframes beforemove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%; } }
+@keyframes beforemove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%; } }
+@-webkit-keyframes aftermove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%;
+    background: transparent; } }
+@keyframes aftermove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%;
+    background: transparent; } }
+.content .single-product .filter {
+  padding: 15px 0; }
+  .content .single-product .filter .display {
+    color: #9d9d9d;
+    font-size: 12.5px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 8px 0; }
+  .content .single-product .filter .sort-label {
+    font-size: 12.5px;
+    font-weight: 300;
+    color: #fff;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle; }
+  .content .single-product .filter .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    font-size: 12.5px;
+    font-weight: 300;
+    background-color: transparent;
+    width: 140px;
+    color: #fff; }
+  .content .single-product .filter option {
+    background-color: #232323; }
+.content .single-product .title {
+  font-size: 33.33px;
+  font-weight: 400;
+  font-family: "Teko", sans-serif;
+  color: #fff;
+  margin: 40px 0;
+  text-align: left;
+  letter-spacing: 2px; }
+.content .single-product .list {
+  margin-bottom: 40px; }
+
+/*# sourceMappingURL=product.css.map */

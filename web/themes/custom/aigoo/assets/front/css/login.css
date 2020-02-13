@@ -1,0 +1,74 @@
+.form-control::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #fff;
+  text-align: center; }
+
+.form-control:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  opacity: 1;
+  text-align: center; }
+
+.form-control::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+  opacity: 1;
+  text-align: center; }
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+  text-align: center; }
+
+.login-container {
+  color: #fff;
+  background-image: url("/assets/front/img/login-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 25px 0; }
+  .login-container .form {
+    text-align: center;
+    max-width: 400px;
+    margin: auto; }
+    .login-container .form .title {
+      font-family: "Teko", sans-serif;
+      font-size: 50px;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .login-container .form .form-control {
+      background: none;
+      border: none;
+      box-shadow: none;
+      border: 1px solid #fff;
+      background-color: rgba(255, 255, 255, 0.5);
+      font-size: 12.5px;
+      font-weight: 300;
+      letter-spacing: 1px; }
+    .login-container .form p {
+      margin-bottom: 25px; }
+    .login-container .form .button input {
+      background: 0;
+      border: 0;
+      background-color: #c77323;
+      border: 1px solid #dd9b5c;
+      border-radius: 3px;
+      font-family: "Teko", sans-serif;
+      font-size: 20.83px;
+      color: #fff;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 5px 20px;
+      width: 100%; }
+    .login-container .form .signup {
+      font-weight: 500;
+      font-size: 12.5px;
+      letter-spacing: 1px;
+      color: #fff; }
+      .login-container .form .signup a {
+        font-size: 20.83px;
+        font-weight: 400;
+        font-family: "Teko", sans-serif;
+        color: #fff; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,137 @@
+.intro {
+  background-image: url("/assets/front/img/about-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+  position: relative;
+  /* Chrome, Safari, Opera */
+  /* Standard syntax */
+  /* Chrome, Safari, Opera */
+  /* Standard syntax */ }
+  .intro .holder {
+    padding: 53px 0; }
+  .intro .title {
+    font-size: 29.17px;
+    font-family: "Teko", sans-serif;
+    color: #fff;
+    line-height: 29px;
+    letter-spacing: 3px;
+    text-align: center; }
+  .intro .bredcramb {
+    font-size: 12.5px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center; }
+    .intro .bredcramb a {
+      color: #fff; }
+      .intro .bredcramb a:hover, .intro .bredcramb a:focus {
+        color: #fff; }
+  .intro:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    -webkit-animation: beforemove 2s infinite;
+    /* Chrome, Safari, Opera */
+    animation: beforemove 2s infinite; }
+  .intro:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    -webkit-animation: aftermove 2s infinite;
+    /* Chrome, Safari, Opera */
+    animation: aftermove 2s infinite; }
+@-webkit-keyframes beforemove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%; } }
+@keyframes beforemove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%; } }
+@-webkit-keyframes aftermove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%;
+    background: transparent; } }
+@keyframes aftermove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%;
+    background: transparent; } }
+.content {
+  padding: 25px 0; }
+  .content .side-pic {
+    width: 100%; }
+  .content .desc {
+    font-size: 12.5px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fff;
+    white-space: pre-wrap; }
+  .content .offerdesc {
+    font-size: 20.5px;
+    letter-spacing: 1px;
+    color: #fff;
+    white-space: pre-wrap; }
+    .content .offerdesc h1 {
+      font-size: 80.5px; }
+  .content .thumb {
+    margin-top: 25px; }
+    .content .thumb img {
+      width: 100%; }
+  .content .offer-title {
+    color: #fff;
+    margin: 10px;
+    font-size: 30px; }
+  .content .offer-content {
+    color: #fff;
+    padding: 10px; }
+    .content .offer-content .title {
+      margin: 10px;
+      font-size: 30px; }
+    .content .offer-content .subtitle {
+      margin: 10px;
+      font-size: 20px; }
+    .content .offer-content .desc {
+      margin: 10px;
+      font-size: 15px; }
+    .content .offer-content .frame {
+      text-align: center;
+      margin: 20px; }
+      .content .offer-content .frame iframe {
+        width: 100%;
+        height: 250px; }
+  .content .slide .per-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; }
+  .content .testimony {
+    color: #fff; }
+    .content .testimony .testimony-title {
+      font-size: 20px; }
+    .content .testimony .swiper-container .swiper-wrapper .testimony-person {
+      font-size: 15px;
+      text-align: center; }
+    .content .testimony .swiper-container .swiper-wrapper .testimony-text {
+      margin: 20px;
+      text-align: center; }
+    .content .testimony .swiper-container .swiper-wrapper .testimony-date {
+      font-size: 12px;
+      text-align: center;
+      color: #F1F3F6; }
+.faq .title{color:#fff;margin-bottom:25px;font-size:25.66px;font-weight:700;margin-top:25px}
+/*# sourceMappingURL=about.css.map */

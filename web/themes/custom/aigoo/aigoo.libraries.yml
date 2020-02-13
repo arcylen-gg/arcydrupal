@@ -8,3 +8,14 @@ global-js:
     js/main.js: {}
   dependencies:
     - core/jquery
+
+assets-css:
+  css:
+    theme:
+      assets/initializr/css/bootstrap.min.css: {}
+      assets/initializr/css/bootstrap-theme.min.css: {}
+      assets/initializr/css/main.css: {}
+      assets/font-awesome/css/font-awesome.min.css: {}
+      assets/slick/slick.css: {}
+      assets/slick/slick-theme.css: {}
+      assets/front/css/global.css: {}

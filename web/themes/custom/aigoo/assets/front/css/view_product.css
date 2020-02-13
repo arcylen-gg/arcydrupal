@@ -1,0 +1,168 @@
+.intro {
+  background-image: url("/assets/front/img/product-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 180px;
+  text-align: right;
+  position: relative;
+  /* Chrome, Safari, Opera */
+  /* Standard syntax */
+  /* Chrome, Safari, Opera */
+  /* Standard syntax */ }
+  .intro .holder {
+    padding: 53px 0; }
+  .intro .title {
+    font-size: 65.5px;
+    font-family: "Teko", sans-serif;
+    color: #fff;
+    line-height: 60px;
+    letter-spacing: 3px; }
+  .intro .bredcramb {
+    font-size: 10.42px;
+    color: #fff; }
+    .intro .bredcramb a {
+      color: #fff; }
+      .intro .bredcramb a:hover, .intro .bredcramb a:focus {
+        color: #fff; }
+  .intro:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    -webkit-animation: beforemove 2s infinite;
+    /* Chrome, Safari, Opera */
+    animation: beforemove 2s infinite; }
+  .intro:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    -webkit-animation: aftermove 2s infinite;
+    /* Chrome, Safari, Opera */
+    animation: aftermove 2s infinite; }
+@-webkit-keyframes beforemove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%; } }
+@keyframes beforemove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%; } }
+@-webkit-keyframes aftermove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%;
+    background: transparent; } }
+@keyframes aftermove {
+  from {
+    width: 0;
+    background: white; }
+  to {
+    width: 100%;
+    background: transparent; } }
+.intros {
+  padding: 25px 0 35px;
+  text-align: center; }
+  .intros .image {
+    background-color: #1d1d1d;
+    border: 1px solid #313131;
+    padding: 15px; }
+    .intros .image img {
+      width: 100%; }
+    .intros .image .product-thumb .holder {
+      margin: 10px 5px; }
+      .intros .image .product-thumb .holder img {
+        width: 100%;
+        cursor: pointer;
+        border: 1px solid #313131; }
+      .intros .image .product-thumb .holder.active img {
+        border: 1px solid #fff; }
+  .intros .info {
+    padding: 20px;
+    text-align: left; }
+    .intros .info .name {
+      font-size: 33.33px;
+      font-family: "Teko", sans-serif;
+      font-weight: 400;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 1px;
+      float: left; }
+    .intros .info .price {
+      font-size: 33.33px;
+      font-family: "Teko", sans-serif;
+      font-weight: 400;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 1px;
+      float: right; }
+    .intros .info .desc {
+      font-size: 12.5px;
+      color: #6a6a6a;
+      font-weight: 300;
+      margin-bottom: 25px;
+      color: #fff;
+      letter-spacing: 1px; }
+      .intros .info .desc .sub-title {
+        font-size: 16.67px;
+        font-weight: 700; }
+    .intros .info .stock {
+      font-size: 14.58px;
+      font-weight: 300; }
+    .intros .info .quantity {
+      border: 1px solid #9d9d9d; }
+      .intros .info .quantity table {
+        margin-left: auto;
+        width: 100%; }
+      .intros .info .quantity .adjust {
+        background-color: #191919;
+        color: #fff;
+        font-size: 14.58px;
+        font-weight: 300;
+        padding: 7px 20px; }
+      .intros .info .quantity .input-adjust {
+        border-radius: 0;
+        box-shadow: none;
+        border: 0;
+        border: 1px solid #9d9d9d; }
+    .intros .info .add-cart {
+      text-align: right; }
+      .intros .info .add-cart .btn {
+        text-align: center;
+        background-color: transparent;
+        font-family: "Teko", sans-serif;
+        color: #fff;
+        border: 0;
+        border-radius: 0;
+        font-size: 16.67px;
+        font-weight: 400;
+        width: 100%;
+        letter-spacing: 2px;
+        border: 1px solid #c0c0c0; }
+        .intros .info .add-cart .btn img {
+          height: 20px;
+          margin-right: 5px; }
+
+.related .title {
+  font-size: 25px;
+  font-weight: 300;
+  font-family: "Teko", sans-serif;
+  margin: 40px 0 20px;
+  text-align: left;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=view_product.css.map */

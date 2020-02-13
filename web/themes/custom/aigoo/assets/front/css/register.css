@@ -1,0 +1,61 @@
+.form-control::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #919191;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.form-control:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #919191;
+  opacity: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.form-control::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #919191;
+  opacity: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #919191;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.register {
+  color: #fff; }
+  .register .title {
+    font-family: "Teko", sans-serif;
+    font-size: 37.5px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    margin: 50px 0 25px; }
+  .register .register-holder {
+    max-width: 350px;
+    margin: auto; }
+    .register .register-holder .form-group {
+      margin-bottom: 25px; }
+      .register .register-holder .form-group .form-control {
+        font-size: 10.42px;
+        height: 40px; }
+    .register .register-holder .btn {
+      width: 100%;
+      border: 0;
+      background: none;
+      border: 1px solid #dd9b5c;
+      background-color: #c77323;
+      font-family: "Teko", sans-serif;
+      font-size: 20.83px;
+      color: #fff;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+
+/*# sourceMappingURL=register.css.map */

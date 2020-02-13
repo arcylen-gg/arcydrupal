@@ -4,4 +4,5 @@ type: theme
 libraries:
   - aigoo/global-css
   - aigoo/global-js
+  - aigoo/assets-css
 core: 8.x
