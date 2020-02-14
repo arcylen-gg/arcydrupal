@@ -1,0 +1,7 @@
+product.product_form:
+  path: 'product'
+  defaults:
+    _form: '\Drupal\product\Form\ProductForm'
+    _title: 'Product Form'
+  requirements:
+    _permission: 'TRUE'

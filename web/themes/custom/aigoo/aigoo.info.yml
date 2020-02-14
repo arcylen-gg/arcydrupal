@@ -1,24 +1,14 @@
-name: Aigoo
-description: Drupal 8 Starter Theme
+core: 8.x
 type: theme
+base theme: false
+
+name: 'Aigoo'
+description: 'Aigoo.'
+package: 'Aigoo'
+
+
 libraries:
   - aigoo/global-css
   - aigoo/global-js
   - aigoo/assets-css
   - aigoo/assets-js
-core: 8.x
-
-base theme: false
-regions:
-  header: Header
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
-  primary_menu: 'Primary menu'
-  secondary_menu: 'Secondary menu'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
-  highlighted: Highlighted
-  featured_top: 'Featured top'
-  breadcrumb: Breadcrumb
-  content: 'Content'
- 
