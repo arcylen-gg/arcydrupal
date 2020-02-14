@@ -7,4 +7,18 @@ libraries:
   - aigoo/assets-css
   - aigoo/assets-js
 core: 8.x
+
+base theme: false
+regions:
+  header: Header
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: 'Content'
  
