@@ -60,7 +60,6 @@
               </span>
             </div>
             <div class="text">
-              <span style="color:#fff;text-weight:bold">|</span>
               {{ page.primary_menu }}
             </div>
           </div>
@@ -75,44 +74,59 @@
       <div class="container">
       </div>
       <div class="content-container">
-        
+        <div class="feature">
+          <div class="container">
+            <div class="row clearfix">
+              <div class="col-md-12">
+                <div class="holder">
+                  <div class="text"> &nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;</div>
+                  <div class="text"> &nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;</div>
+                  {{ page.secondary_menu }}
+                  {{ page.breadcrumb }} 
+
+                  {{ page.highlighted }}
+
+                 
+            
+                  <main role="main">
+                    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+                    <div class="layout-content">
+                      {{ page.content }}
+                    </div>{# /.layout-content #}
+
+                    {% if page.sidebar_first %}
+                      <aside class="layout-sidebar-first" role="complementary">
+                        {{ page.sidebar_first }}
+                      </aside>
+                    {% endif %}
+
+                    {% if page.sidebar_second %}
+                      <aside class="layout-sidebar-second" role="complementary">
+                        {{ page.sidebar_second }}
+                      </aside>
+                    {% endif %}
+
+                  </main>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="text">
-        <span style="color:#fff;text-weight:bold">|</span>
-        {{ page.secondary_menu }}
-      </div>
-      {{ page.breadcrumb }} 
-
-      {{ page.highlighted }}
-
-      {{ page.help }}
-
-      <main role="main">
-        <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-        <div class="layout-content">
-          {{ page.content }}
-        </div>{# /.layout-content #}
-
-        {% if page.sidebar_first %}
-          <aside class="layout-sidebar-first" role="complementary">
-            {{ page.sidebar_first }}
-          </aside>
-        {% endif %}
-
-        {% if page.sidebar_second %}
-          <aside class="layout-sidebar-second" role="complementary">
-            {{ page.sidebar_second }}
-          </aside>
-        {% endif %}
-
-      </main>
-
-      {% if page.footer %}
-        <footer role="contentinfo">
-          {{ page.footer }}
-        </footer>
-      {% endif %}
+      <footer  role="contentinfo">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-md-4">
+              {% if page.footer %}
+                  {{ page.footer }}
+              {% endif %}
+            </div>
+            <div class="col-md-4">
+             {{ page.help }}
+            </div>
+          </div>
+        </div>
+      </footer>
 
     </div>{# /.layout-container #}
   </div>
