@@ -9,6 +9,4 @@ package: 'Aigoo'
 
 libraries:
   - aigoo/global-css
-  - aigoo/global-js
   - aigoo/assets-css
-  - aigoo/assets-js

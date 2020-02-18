@@ -1,13 +1,13 @@
-global-css:
-  css:
-    theme:
-      css/style.css: {}
+# global-css:
+#   css:
+#     theme:
+#       css/style.css: {}
 
-global-js:
-  js:
-    js/main.js: {}
-  dependencies:
-    - core/jquery
+# global-js:
+#   js:
+#     js/main.js: {}
+#   dependencies:
+#     - core/jquery
 
 assets-css:
   css:
@@ -16,13 +16,10 @@ assets-css:
       assets/initializr/css/bootstrap-theme.min.css: {}
       assets/initializr/css/main.css: {}
       assets/font-awesome/css/font-awesome.min.css: {}
-      assets/slick/slick.css: {}
-      assets/slick/slick-theme.css: {}
       assets/front/css/global.css: {}
 
-assets-js:
-  js:
-    assets/front/js/global.js: {}
-    assets/front/js/home.js: {}
-    assets/front/js/parallax.min.js: {}
-    assets/front/js/slick.min.js: {}
+# assets-js:
+#   js:
+#     assets/front/js/global.js: {}
+#     assets/front/js/home.js: {}
+#     assets/front/js/parallax.min.js: {}
