@@ -1,0 +1,9 @@
+<?php
+
+function logo_theme($existing, $type, $theme, $path) {
+    return array(
+        'logo_change' => array(
+            'variable' => array('image' => '', 'title' => '')
+        )
+    );
+}

@@ -78,6 +78,7 @@ function aigoo_preprocess_maintenance_page(&$variables) {
  * Implements hook_preprocess_HOOK() for node.html.twig.
  */
 function aigoo_preprocess_node(&$variables) {
+
   // Remove the "Add new comment" link on teasers or when the comment form is
   // displayed on the page.
   if ($variables['teaser'] || !empty($variables['content']['comments']['comment_form'])) {

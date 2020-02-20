@@ -1,8 +1,0 @@
-<?php
-function product_schema()
-{
-    $schema['product'] = array('fields' => array('id' => array(),
-                                                 'type' => 'serial',
-                                                 'not null' => TRUE),
-                                                );
-}
