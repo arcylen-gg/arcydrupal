@@ -35,7 +35,6 @@ class TweetsBlock extends BlockBase {  /**
 
     $tweets = json_decode($tweets);
     foreach($tweets as $tweet) {
-    # print_r($tweet);
     $tweet->text = check_markup($tweet->text, 'full_html');
     $cleanTweets[] = $tweet;
     }

@@ -1,0 +1,6 @@
+logochange:
+    path: /logochange
+    defaults:
+      _controller: Drupal\logochange\Controller\LogoChangeController::logochange
+    requirements:
+      _permission: 'access content'

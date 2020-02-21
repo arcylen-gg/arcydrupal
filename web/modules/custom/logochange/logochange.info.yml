@@ -1,0 +1,5 @@
+name: Logo Change
+description: Logo maintenance
+type: module
+package: Sample
+core: 8.x
