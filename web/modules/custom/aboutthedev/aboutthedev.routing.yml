@@ -1,6 +1,6 @@
 aboutthedev:
     path: /aboutthedev
     defaults:
-      _controller: Drupal\aboutthedev\Controller\LogoChangeController::aboutthedev
+      _controller: Drupal\aboutthedev\Controller\AboutTheDevController::aboutthedev
     requirements:
       _permission: 'access content'

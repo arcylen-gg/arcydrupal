@@ -8,6 +8,8 @@ class AboutTheDevController
 {
     public function aboutthedev() 
     {
-        return new Response('Testingggg');
+        return array(
+            '#title' => 'About the Dev',
+        );
     }
 }
