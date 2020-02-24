@@ -1,0 +1,12 @@
+<?php
+/**
+ * Implementing hook_theme().
+ */
+function aboutthedev_theme($existing, $type, $theme, $path) {
+
+  return array(
+    'aboutthedev' => array(
+      'variables' => array('src' => '', 'title' => '')
+    )
+  );
+}
