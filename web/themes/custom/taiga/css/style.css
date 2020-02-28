@@ -178,3 +178,26 @@ th, td {
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+footer.site-footer {
+    padding: 10px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+footer.site-footer .layout-container{
+    text-align: center;
+}
+#block-taiga-powered span a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#block-taiga-footer ul li {
+    display: inline-block;
+    padding: 10px;
+}
+#block-taiga-footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
