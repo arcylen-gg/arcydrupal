@@ -18,14 +18,17 @@ body, html {
     width: 100%;
     text-align: center;
 }
-
 .slideshow-alignment {
     text-align: center !important;
 }
 .views-field-field-slideshow div.field-content img {
     height: 500px !important;
     width: 100% !important;
+    max-width: 1200px;
     object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #block-taiga-views-block-slideshow-block-1-3 {
     text-align: center;
@@ -96,6 +99,10 @@ input[type=text] {
     box-sizing: border-box;
 }
 input[type=email] {
+    width: 300px;
+    box-sizing: border-box;
+}
+input[type=password] {
     width: 300px;
     box-sizing: border-box;
 }
@@ -200,4 +207,29 @@ footer.site-footer .layout-container{
 #block-taiga-footer ul li a{
     text-decoration: none;
     color: #ffffff;
+}
+#edit-name--description {
+    font-size: 11px;
+}
+#edit-pass--description {
+    font-size: 11px;
+}
+
+.description {
+    font-size: 11px;
+}
+#block-taiga-local-tasks {
+    text-align: center;
+}
+
+#block-taiga-local-tasks ul li {
+    display: inline-block;
+}
+
+#block-taiga-local-tasks ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+#block-taiga-page-title {
+    text-align: center;
 }
